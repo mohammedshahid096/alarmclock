@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alarm Clock</title>
+
+    <link rel="stylesheet" 
+          href="alarm.css"
+          type="text/css">
+</head>
+
+<body>
+    <audio controls loop id="music"><!--a loop will continue will playing the audio-->
+        <source src="ringtone/alarmaudio.mp3" type="audio/mpeg">
+    </audio>
+    <div class="container">
+
+        <span id="currentshow"></span>
+        <br>
+        <input type="time" id="timeset">
+        <br>
+        <span id="smallalert">*Pls enter the time</span>
+        <br>
+        <span id="smallruningalert"><marquee width="45%" direction="left">*Alarm is Set</marquee></span>
+        <br>
+        <input type="button" value="Start Alarm" id="setbutton">
+        <input type="button" value="Stop Alarm" id="stopbutton">
+    </div>
+
+
+
+    <script src="alarm.js">
+
+        //this is for showing the current time 
+
+    </script>
+</body>
+
+</html>

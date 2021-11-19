@@ -1,0 +1,53 @@
+body {
+    background-color: rgba(0, 0, 0, 0.945);
+    color: white;
+}
+
+.container {
+    width: 1000px;
+    margin: 0 auto;
+    /* background-color: rgba(255, 228, 196, 0.596); */
+    margin-top: 90px;
+    align-items: center;
+}
+
+#currentshow {
+    font-size: 90px;
+    margin-left: 26%;
+    font-weight: bold;
+}
+
+#timeset {
+    font-size: 50px;
+    margin-top: 50px;
+    margin-left: 7em;
+}
+
+#smallalert {
+    color: rgba(255, 0, 0, 0.692);
+    margin-left: 21em;
+    font-size: 17px;
+}
+
+#setbutton {
+    height: 1.4cm;
+    font-size: 30px;
+    background-color: green;
+    margin-left: 9.9em;
+    margin-top: 1em;
+}
+
+#stopbutton {
+    height: 1.3cm;
+    font-size: 30px;
+    background-color: rgb(230, 91, 26);
+    margin-left: 2em;
+    margin-top: 1em;
+}
+
+#smallruningalert{
+    color: rgba(13, 202, 60, 0.692);
+    margin-left: 21em;
+    font-size: 17px;
+    display: none;
+}
